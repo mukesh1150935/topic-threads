@@ -5,7 +5,8 @@ const Connection = async (username, password) => {
     // const URL = `mongodb://${username}:${password}@blogweb-shard-00-00.ch1hk.mongodb.net:27017,blogweb-shard-00-01.ch1hk.mongodb.net:27017,blogweb-shard-00-02.ch1hk.mongodb.net:27017/BLOG?ssl=true&replicaSet=atlas-lhtsci-shard-0&authSource=admin&retryWrites=true&w=majority`;
     // const URL=`mongodb://${username}:${password}@ac-dyw7oil-shard-00-00.awponan.mongodb.net:27017,ac-dyw7oil-shard-00-01.awponan.mongodb.net:27017,ac-dyw7oil-shard-00-02.awponan.mongodb.net:27017/?ssl=true&replicaSet=atlas-ncfctj-shard-0&authSource=admin&retryWrites=true&w=majority`;
     // const URL = process.env.DB;
-    URL='mongodb+srv://rehan:21bcs049@cluster0.jxhydap.mongodb.net/?retryWrites=true&w=majority'
+    URL=`mongodb+srv://mukesh_singh_09:Msr1150935@cluster0.gajprnv.mongodb.net/?retryWrites=true&w=majority`
+
     try {
         await mongoose.connect(URL, {
             useNewUrlParser: true,
